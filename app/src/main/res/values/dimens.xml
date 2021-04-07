@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="design_navigation_icon_padding" tools:override="true">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="thumb_width">14dp</dimen>
+    <dimen name="thumb_height">14dp</dimen>
+    <dimen name="rsb_trackDefaultThickness">2dp</dimen>
+    <dimen name="rsb_touchRadius">16dp</dimen>
+    <dimen name="rsb_defaultSidePadding">16dp</dimen>
+
+
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mainactivity.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/feelfy_heart"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_feelfy_heart_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/feelfy_heart"
+                android:text="FeelFy"
+                android:textColor="#098BFF"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_vente_arriba_raylight" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image_chat"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_chat" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/ll_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:id="@+id/rel_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image_menu"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_equalize_icon" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_fastfeeling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image_fastfeeling"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/image_fastfeeling"
+                android:visibility="gone"/>
+            <com.kyleduo.switchbutton.SwitchButton
+                android:clickable="false"
+                android:id="@+id/sb_text_state"
+                style="@style/SwitchButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF4141"
+                app:kswBackColor="#CBCBCB"
+                android:layout_centerInParent="true"
+                android:textSize="12dp"
+                app:kswTextAdjust="-2dp"
+                app:kswTextExtra="12dp"
+                app:kswTextOff="OFF"
+                app:kswTextOn="ON"
+                app:kswThumbMargin="3dp"
+                app:kswThumbHeight="25dp"
+                app:kswThumbRangeRatio="2"
+                app:kswThumbWidth="25dp"
+                app:kswThumbDrawable="@drawable/ios_thumb_selector_red"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rel_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image_settings"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_vector_settings" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

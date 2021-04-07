@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">FeelFy</string>
+    <string name="by_logging_into_feelfy_you_are_accepting_our">By Logging into Feelfy you are accepting our</string>
+    <string name="your_email">Your email @ and Password.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="subscription">Subscription</string>
+    <string name="you_have_not_subscribe_nwant_to_subscribe">You have not subscribed, I want to subscribe</string>
+    <string name="visible">VISIBLE</string>
+    <string name="description_nadvance">Description \nAdvance</string>
+    <string name="jorge_32">Jorge, 32</string>
+    <string name="todo">TODO</string>
+    <string name="_29_95">29.95\u20ac</string>
+    <string name="_19_95">19.95\u20ac</string>
+    <string name="_9_95">9.95\u20ac</string>
+    <string name="only_for_29_95">Only for 29.95\u20ac</string>
+    <string name="only_for_19_95">Only for 19.95\u20ac</string>
+    <string name="only_for_9_95">Only for 9.95\u20ac</string>
+    <string name="only_for_3_95_25h">Only for 3.95\u20ac(25h)</string>
+    <string name="only_for_1_95_c_u">Only for 1.95\u20ac(C/U)</string>
+    <string name="feelfy">FeelFy</string>
+
+    <string name="facebook_app_id">646957945963833</string>
+    <string name="fb_login_protocol_scheme">fb646957945963833</string>
+
+    <string name="client_id">281302436387822</string>
+    <string name="redirect_url">https://instagram.com/</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="get_user_info_url">https://api.instagram.com/v1/users/self/?access_token=</string>
+
+    <string name="woops">Woops!</string>
+    <string name="it_seems">It seems that you have reached the \nmaximum of Daily Top Feelings :( \n\n To continue, we invite you to \n subscribe or wait 24 hours.</string>
+    <string name="subscribe">Subscribe now!</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <!--    fragment account setting-->
+    <string name="account_settings">Account Settings</string>
+    <string name="Email">Email</string>
+    <string name="Push_Notification">Push Notification</string>
+    <string name="License">License</string>
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="TOS">Terms of Service</string>
+    <string name="TOU">Terms of Use</string>
+    <string name="help">Help and Contact</string>
+    <string name="Logout">Logout</string>
+    <string name="delete_acc">Delete account</string>
+    <!--    activitylogin-->
+    <string name="we_dont_share">Your privacy first \n We dont share anything on Facebook</string>
+    <string name="login_with_insta">Login with Instagram</string>
+    <string name="login_with_fb">Login with Facebook</string>
+    <string name="or">or</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="and_the">and the</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Have you forgotten your password? do not worry,</string>
+    <string name="get_it_now">Get it now</string>
+    <string name="here_now">here now!</string>
+    <!--    activity new login-->
+    <string name="So_considered_in_FeelFy">So considered in FeelFy</string>
+    <string name="use_6_12">Use 6 to 12 characters\nbetween lowercase,uppercase letters[A-z]\nSymbols(/*$%)</string>
+    <string name="hint_repeatpass">Repeat password</string>
+    <string name="hint_repeatyourpass">Repeat your password</string>
+    <string name="next">Next</string>
+    <string name="you_have_no_description">You have no description</string>
+    <string name="set_description">Add your personal details</string>
+    <string name="please_wait">Please wait</string>
+    <string name="hidden">Hidden</string>
+    <string name="new_message">New message</string>
+    <string name="you_have_received_new_feelings">You have received new Feelings!</string>
+    <string name="you_currently_have_no_subs">You currently do not have an active subscription.</string>
+    <string name="click_on_medal">Click on a medal to see the details of each subscription.</string>
+    <string name="you_can_make_payment">You can make single payment for smaller amount.</string>
+    <string name="unit_payment">Unit Payment</string>
+    <string name="eye_color">Eye Color</string>
+    <string name="hair_color">Hair Color</string>
+    <string name="smoke">Do you smoke?</string>
+    <string name="drink">Do you drink alcohol?</string>
+    <string name="have_child">Have Children?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="brown">Brown</string>
+    <string name="green">Green</string>
+    <string name="white">White</string>
+    <string name="apply">Apply</string>
+    <string name="advance_search">Advanced search</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="refine">Refine your search</string>
+    <string name="search_advanced">Search \n Advanced</string>
+    <string name="age_range">Age range</string>
+    <string name="search_distance">Search Distance</string>
+    <string name="Sexual_orientation">Sexual orientation</string>
+    <string name="Gender_identity">Gender identity</string>
+    <string name="Who_are_you_with">Who are you with \nfancy having \nfeeling?</string>
+
+
+</resources>

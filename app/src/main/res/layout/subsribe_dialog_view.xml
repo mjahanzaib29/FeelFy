@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rel_gold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/shape_feeling"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="35dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Subscription GOLD"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="You can see who has had \n Feeling with you unlimitedly. \n\n View the Feelings counter of \n yours and third parties. \n\n Possibility to hide your profile in \n all searches. \n\n You can see which profiles are online \n\n The first one always appears in \n the list of chats. \n\n 4 Fast Feeling / month. \n\n 4 Come Up! / month. \n\n No adds"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ubuntu"
+                android:text="For almost what it cost to order a \n2*1 in pizzas :)"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/tv_gold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shape_login_button"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/only_for_29_95"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_silver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/shape_feeling"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="35dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Subscription SILVER"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tope Feeling unlimited. \n\n You can see who has had \n Feeling with you unlimitedly. \n\n View the Feelings counter of \n yours and third parties. \n\n Possibility to hide your profile in \n all searches. \n\n  2 Fast Feeling / month. \n\n 2 Come Up! / month. \n\n No adds"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ubuntu"
+                android:text="For what they cost two movie \ntickets, WITHOUT PIGEONS :)"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/tv_silver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shape_login_button"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/only_for_19_95"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_bronze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/shape_feeling"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="35dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Subscription BRONZE"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tope Feelings unlimited. \n\n You can see who has had \n Feeling with you, 10 times every \n 24th \n\n Display the counter of Feelings \n own and third parties. \n\n Possibility to hide your profile in \n all searches  \n\n 1 Fast Feeling / month. \n\n 1 Come Up! / month."
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ubuntu"
+                android:text="By listening to music you pay more :)"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/tv_bronze"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shape_login_button"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/only_for_9_95"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_fastfeeling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/shape_feeling"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="35dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FAST FEELING"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="We present Fast Feelings! \n Here you can see all of the \n people who are looking for \n something and more \n casual, bluntly. \n\n Find someone to chat with and \n stay for fun TODAY because at \n FeelFy, we know that time is \n money \n\n You have 24 hours to find what \n you are looking for, so we will \n not take away more time, enter \n and find out yourself!"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_fastfeeling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shape_login_button"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/only_for_3_95_25h"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_ventearriba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/shape_feeling"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="35dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="iSEE UP!"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Do you like being first in \n everything? \n\n Come up and stop for 1 hour in \n the first position of all searches. \n\n You will multiply *10 the \n chances of Feeling with \n someone, do you dare?"
+                android:textAppearance="@style/Theme.AppCompat.Light.Dialog.Alert"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tv_ventearriba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shape_login_button"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/only_for_1_95_c_u"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_gold"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_gold_medal"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_silver"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_plate_medal"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_bronze"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_bronze_medal"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rel_fastfeeling_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:background="@drawable/shape_image_background"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/image_fastfeeling"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/image_fastfeeling" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_vente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="end"
+            android:background="@drawable/shape_image_background"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/image_vente" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/closeRL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/shape_cancle_oval"
+            android:elevation="4dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_vector_close" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

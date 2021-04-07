@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#070707</color>
+    <color name="colorPrimaryDark">#4169E1</color>
+    <color name="colorAccent">#928F8F</color>
+
+    <color name="color_login_background">#00BCD4</color>
+    <color name="colorWhite">#FFFF</color>
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="trackDefaultColor">#cccccc</color>
+
+    <color name="colorBlack">#000000</color>
+
+
+    <color name="rsb_trackDefaultColor">#cccccc</color>
+    <color name="rsb_trackSelectedDefaultColor">#F9666C</color>
+
+
+</resources>
